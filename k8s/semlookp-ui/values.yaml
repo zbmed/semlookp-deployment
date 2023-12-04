@@ -1,0 +1,6 @@
+ingress:
+  dns:
+  enableSSL:
+  certIssuer:
+images:
+  frontend: ghcr.io/zbmed/semlookp-ui:latest
