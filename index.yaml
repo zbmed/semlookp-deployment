@@ -1,6 +1,26 @@
 apiVersion: v1
 entries:
+  ols4:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-03-08T07:12:03.091759743Z"
+    description: A Helm chart to deploy the ols4 backend
+    digest: 0181ab8aa826e1d89bac3ee5e63473fc07f5509d2f7bfc26111256d75956caec
+    name: ols4
+    urls:
+    - https://github.com/zbmed/semlookp-deployment/releases/download/ols4-0.1.1/ols4-0.1.1.tgz
+    version: 0.1.1
   semlookp-ui:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-03-08T07:12:03.214155161Z"
+    description: A Helm chart to deploy the semlookp-ui.
+    digest: d50a6eafbb98d2219d7c04e024d618c4ce29980ba66bd4c29b81d515702f61fe
+    name: semlookp-ui
+    type: application
+    urls:
+    - https://github.com/zbmed/semlookp-deployment/releases/download/semlookp-ui-0.0.4/semlookp-ui-0.0.4.tgz
+    version: 0.0.4
   - apiVersion: v2
     appVersion: 1.0.0
     created: "2023-12-06T15:45:58.32296512Z"
@@ -11,4 +31,4 @@ entries:
     urls:
     - https://github.com/zbmed/semlookp-deployment/releases/download/semlookp-ui-0.0.3/semlookp-ui-0.0.3.tgz
     version: 0.0.3
-generated: "2023-12-06T15:45:58.3229759Z"
+generated: "2024-03-08T07:12:03.214169297Z"
