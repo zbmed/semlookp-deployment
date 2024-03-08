@@ -21,5 +21,10 @@ spec:
             memory: 100Mi
         ports:
           - containerPort: 80
+        env:
+          - name: API_URL
+            value: {{ .Values.frontend.apiURL }}
+          - name: TARGET_LINK
+            value: {{ .Values.ingress.dns }}
       imagePullSecrets:
         - name: semlookp-dockerconfigjson-github-com

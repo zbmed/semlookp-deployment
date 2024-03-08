@@ -2,5 +2,7 @@ ingress:
   dns:
   enableSSL:
   certIssuer:
+frontend:
+  apiURL:
 images:
   frontend: ghcr.io/zbmed/semlookp-ui:latest

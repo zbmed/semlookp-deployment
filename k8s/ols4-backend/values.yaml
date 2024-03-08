@@ -1,0 +1,10 @@
+ingress:
+  dns:
+imageTag:
+oidc:
+  data:
+    host:
+    bucket:
+backend:
+  context:
+
