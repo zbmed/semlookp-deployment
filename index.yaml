@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  api-gateway:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-05-14T14:43:15.449915716Z"
+    description: A Helm chart to deploy the api-gateway.
+    digest: 490ba354830d7d90f97fc9f2e2e7a583d9cd53f6e725e1e07af5d9eda792b4e8
+    name: api-gateway
+    type: application
+    urls:
+    - https://github.com/zbmed/semlookp-deployment/releases/download/api-gateway-0.0.1/api-gateway-0.0.1.tgz
+    version: 0.0.1
   ols4:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -69,4 +80,4 @@ entries:
     urls:
     - https://github.com/zbmed/semlookp-deployment/releases/download/semlookp-ui-0.0.3/semlookp-ui-0.0.3.tgz
     version: 0.0.3
-generated: "2024-03-12T10:00:10.789588512Z"
+generated: "2024-05-14T14:43:15.449936766Z"
