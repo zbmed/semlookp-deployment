@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-api-gateway
+spec:
+  selector:
+    matchLabels:
+      name: {{ .Release.Name }}-api-gateway
+  template:
+    metadata:
+      labels:
+        name: {{ .Release.Name }}-api-gateway
+    spec:
+      containers:
+      - name: api-gateway
+        image: {{ .Values.images.frontend }}
+        resources:
+          limits:
+            memory: 500Mi
+          requests:
+            memory: 100Mi
+        ports:
+          - containerPort: 8080
+      imagePullSecrets:
+        - name: api-gateway-dockerconfigjson-gitlab

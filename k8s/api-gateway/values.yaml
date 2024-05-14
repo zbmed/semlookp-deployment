@@ -1,0 +1,6 @@
+ingress:
+  dns: api-gateway.qa.km.k8s.zbmed.de
+  enableSSL:
+  certIssuer:
+images:
+  frontend: ghcr.io/zbmed/api-gateway:latest
