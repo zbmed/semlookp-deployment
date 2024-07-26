@@ -23,7 +23,7 @@ spec:
     - host: {{ .Values.ingress.dns }}
       http:
         paths:
-        - path: /
+        - path: /beta/
           pathType: Prefix
           backend:
             service:
