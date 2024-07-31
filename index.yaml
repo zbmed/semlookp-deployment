@@ -62,6 +62,16 @@ entries:
   semlookp-ui:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2024-07-31T06:39:14.690392417Z"
+    description: A Helm chart to deploy the semlookp-ui.
+    digest: 3853c94ef391bd3a2b9e2622e876af1879be27164c55da91a60436c659dae7f7
+    name: semlookp-ui
+    type: application
+    urls:
+    - https://github.com/zbmed/semlookp-deployment/releases/download/semlookp-ui-0.0.7/semlookp-ui-0.0.7.tgz
+    version: 0.0.7
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2024-07-26T12:24:48.582095586Z"
     description: A Helm chart to deploy the semlookp-ui.
     digest: 9cea55533d798e086aca984235d772a593a8fc482913a5bb289a481bcf221343
@@ -100,4 +110,4 @@ entries:
     urls:
     - https://github.com/zbmed/semlookp-deployment/releases/download/semlookp-ui-0.0.3/semlookp-ui-0.0.3.tgz
     version: 0.0.3
-generated: "2024-07-26T12:24:48.58211915Z"
+generated: "2024-07-31T06:39:14.690419107Z"
