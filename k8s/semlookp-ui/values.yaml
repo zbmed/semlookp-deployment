@@ -6,4 +6,4 @@ ingress:
 frontend:
   apiURL:
 images:
-  frontend: ghcr.io/zbmed/semlookp-ui:latest
+  frontend:

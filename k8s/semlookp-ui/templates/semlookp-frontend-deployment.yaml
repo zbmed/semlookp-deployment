@@ -22,7 +22,7 @@ spec:
         ports:
           - containerPort: 80
         env:
-          - name: API_URL
+          - name: REACT_APP_API_URL
             value: {{ .Values.frontend.apiURL }}
           - name: TARGET_LINK
             value: {{ .Values.ingress.dns }}
