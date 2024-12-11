@@ -7,3 +7,6 @@ frontend:
   apiURL:
 images:
   frontend:
+auth:
+  enabled:
+  secretName:
