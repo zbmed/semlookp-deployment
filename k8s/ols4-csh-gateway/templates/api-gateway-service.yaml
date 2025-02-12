@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Release.Name }}-ols4-csh-gateway
+spec:
+  ports:
+    - name: "80"
+      port: 80
+      targetPort: 8080
+  selector:
+    name: {{ .Release.Name }}-ols4-csh-gateway

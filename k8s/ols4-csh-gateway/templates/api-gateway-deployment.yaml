@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-ols4-csh-gateway
+spec:
+  selector:
+    matchLabels:
+      name: {{ .Release.Name }}-ols4-csh-gateway
+  template:
+    metadata:
+      labels:
+        name: {{ .Release.Name }}-ols4-csh-gateway
+    spec:
+      containers:
+      - name: ols4-csh-gateway
+        image: {{ .Values.images.frontend }}
+        ports:
+          - containerPort: 8080
+      imagePullSecrets:
+        - name: ols4-csh-gateway-dockerconfigjson-github-com
