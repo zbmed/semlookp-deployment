@@ -17,4 +17,4 @@ spec:
         ports:
           - containerPort: 8080
       imagePullSecrets:
-        - name: semlookp-dockerconfigjson-github-com
+        - name: ols4-csh-gateway-dockerconfigjson-github-com
