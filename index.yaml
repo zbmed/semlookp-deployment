@@ -52,6 +52,16 @@ entries:
   ols4-csh-gateway:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2025-03-04T07:37:53.828726585Z"
+    description: A Helm chart to deploy the ols4-csh-gateway.
+    digest: 975b5001691ad8a4a60068799e2e94926673208b44a0177bf4192d6b4d8b67ca
+    name: ols4-csh-gateway
+    type: application
+    urls:
+    - https://github.com/zbmed/semlookp-deployment/releases/download/ols4-csh-gateway-0.0.5/ols4-csh-gateway-0.0.5.tgz
+    version: 0.0.5
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2025-03-03T09:17:13.769534192Z"
     description: A Helm chart to deploy the ols4-csh-gateway.
     digest: 7588407f01dffb30a7217babb4ba61533fbafc46fb33e7e787c165f4434b5cc9
@@ -181,4 +191,4 @@ entries:
     urls:
     - https://github.com/zbmed/semlookp-deployment/releases/download/semlookp-ui-0.0.3/semlookp-ui-0.0.3.tgz
     version: 0.0.3
-generated: "2025-03-03T09:17:13.769566452Z"
+generated: "2025-03-04T07:37:53.828774485Z"
