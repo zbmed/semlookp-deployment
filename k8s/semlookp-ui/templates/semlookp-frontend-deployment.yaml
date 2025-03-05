@@ -27,4 +27,4 @@ spec:
           - name: TARGET_LINK
             value: {{ .Values.ingress.dns }}
       imagePullSecrets:
-        - name: semlookp-dockerconfigjson-github-com
+        - name: {{ .Values.frontend.imagePullSecret }}

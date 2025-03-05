@@ -5,6 +5,7 @@ ingress:
   path:
 frontend:
   apiURL:
+  imagePullSecret:
 images:
   frontend:
 auth:
