@@ -17,6 +17,9 @@ metadata:
     nginx.ingress.kubernetes.io/auth-secret: {{ .Values.auth.secretName }}
     nginx.ingress.kubernetes.io/auth-realm: "Authentication Required"
     {{- end }}
+    nginx.ingress.kubernetes.io/configuration-snippet: |
+      rewrite ^/km/MAELSTROM/(.*)$ https://semanticlookup.zbmed.de/ols/ontologies/maelstrom/terms?short_form=$1 redirect;
+      rewrite ^/km/foodex2/(.*)$ https://semanticlookup.zbmed.de/ols/ontologies/foodex2/terms?short_form=$1 redirect;
 spec:
   {{ if .Values.ingress.enableSSL }}
   tls:
