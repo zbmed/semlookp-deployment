@@ -26,5 +26,3 @@ spec:
             value: {{ .Values.frontend.apiURL }}
           - name: TARGET_LINK
             value: {{ .Values.ingress.dns }}
-      imagePullSecrets:
-        - name: {{ .Values.frontend.imagePullSecret }}
