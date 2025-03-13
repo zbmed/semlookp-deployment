@@ -35,7 +35,9 @@ my-helm-repo/
 
 ## Setting Up a GitHub Actions Pipeline for Chart Releases
 
-To automate the release of Helm charts, we use GitHub Actions with the following workflow:
+To automate the release of Helm charts, we use GitHub Actions with the following workflow. 
+
+For a successful run, i) an empty gh-pages branch must exist, ii) the GitHub repository must be public, and iii) GitHub Pages must be enabled in the project settings.
 
 ### GitHub Actions Workflow: `release.yml`
 
@@ -79,7 +81,7 @@ When a new Helm chart version is released, an index.yaml file is generated and p
 
 **Publishing to `gh-pages`**: The updated `index.yaml` is pushed to the `gh-pages` branch, making it publicly available.
 
-## Using the Helm Repository
+## Using the Helm Chart
 
 Once the `gh-pages` branch hosts `index.yaml`, users can add the Helm repo and install the chart (e.g. semlookp-ui):
 
@@ -87,4 +89,9 @@ Once the `gh-pages` branch hosts `index.yaml`, users can add the Helm repo and i
 helm repo add semlookp-deployment https://zbmed.github.io/semlookp-deployment/
 helm repo update
 helm install semlookp-ui semlookp-deployment/semlookp-ui --version 0.0.3
+```
+
+If the chart is not published, it can be used locally with
+```sh
+helm install semlookp-ui path-to-the-project-root/semlookp-deployment/semlookp-ui
 ```
