@@ -1,5 +1,5 @@
 apiVersion: v2
-name: semlookp-ui
+name: zbmed-ts-berd
 description: A Helm chart to deploy the semlookp-ui.
 type: application
 version: 0.0.1
