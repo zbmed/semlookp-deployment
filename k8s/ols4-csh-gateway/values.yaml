@@ -4,4 +4,4 @@ ingress:
   certIssuer:
   path:
 images:
-  frontend:
+  ui:

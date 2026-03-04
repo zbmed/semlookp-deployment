@@ -24,7 +24,7 @@ spec:
         - {{ .Values.ingress.dns }}
       secretName: {{ .Release.Name }}-ssl-secret
   {{ end }}
-  ingressClassName: "nginx"
+  ingressClassName: nginx
   rules:
     - host: {{ .Values.ingress.dns }}
       http:
@@ -37,3 +37,4 @@ spec:
               port:
                 number: 80
 {{- end }}
+

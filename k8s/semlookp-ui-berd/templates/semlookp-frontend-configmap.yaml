@@ -5,7 +5,7 @@ metadata:
   labels:
     project: zbmed
     app.kubernetes.io/instance: {{ .Release.Name }}
-    app.kubernetes.io/part-of: ts-health
+    app.kubernetes.io/part-of: ts-berd
     app.kubernetes.io/component: ui
     app.kubernetes.io/managed-by: Helm
 data:

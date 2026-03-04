@@ -2,6 +2,12 @@ apiVersion: v1
 kind: Service
 metadata:
   name: {{ .Release.Name }}-ols4-csh-gateway
+  labels:
+    project: nfdi4health
+    app.kubernetes.io/instance: {{ .Release.Name }}
+    app.kubernetes.io/part-of: nfdi4health-gateway
+    app.kubernetes.io/component: gateway
+    app.kubernetes.io/managed-by: Helm
 spec:
   ports:
     - name: "80"
