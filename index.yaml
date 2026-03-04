@@ -251,4 +251,26 @@ entries:
     urls:
     - https://github.com/zbmed/semlookp-deployment/releases/download/semlookp-ui-0.0.3/semlookp-ui-0.0.3.tgz
     version: 0.0.3
-generated: "2025-07-17T13:57:53.253245948Z"
+  zbmed-ts-berd:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-03-04T07:31:07.72672553Z"
+    description: A Helm chart to deploy the semlookp-ui.
+    digest: 4d25903aaac87b347af87cd0e069dc243fb5da77b7e47c835688b5c681b09ca9
+    name: zbmed-ts-berd
+    type: application
+    urls:
+    - https://github.com/zbmed/semlookp-deployment/releases/download/zbmed-ts-berd-0.0.1/zbmed-ts-berd-0.0.1.tgz
+    version: 0.0.1
+  zbmed-ts-health:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-03-04T07:31:07.876757841Z"
+    description: A Helm chart to deploy the semlookp-ui specific for NFDI4Health.
+    digest: 813484569748b7a3455abd9b535f238e5bed150d93b1c377277ed345126a0785
+    name: zbmed-ts-health
+    type: application
+    urls:
+    - https://github.com/zbmed/semlookp-deployment/releases/download/zbmed-ts-health-0.0.1/zbmed-ts-health-0.0.1.tgz
+    version: 0.0.1
+generated: "2026-03-04T07:31:07.876819688Z"
