@@ -27,7 +27,7 @@ spec:
           pathType: Prefix
           backend:
             service:
-              name: {{ .Release.Name }}-ols4-csh-gateway
+              name: {{ .Release.Name }}-gw
               port:
                 number: 80
 {{- end }}

@@ -1,23 +1,23 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ .Release.Name }}-ols4-csh-gateway
+  name: {{ .Release.Name }}-gw
 spec:
   selector:
     matchLabels:
-      name: {{ .Release.Name }}-ols4-csh-gateway
+      name: {{ .Release.Name }}-gw
   template:
     metadata:
       labels:
-        name: {{ .Release.Name }}-ols4-csh-gateway
-        project: nfdi4health
+        name: {{ .Release.Name }}-gw
+        project: zbmed
         app.kubernetes.io/instance: {{ .Release.Name }}
-        app.kubernetes.io/part-of: nfdi4health-gateway
+        app.kubernetes.io/part-of: ts-health
         app.kubernetes.io/component: gateway
         app.kubernetes.io/managed-by: Helm
     spec:
       containers:
-      - name: ols4-csh-gateway
+      - name: gw
         image: {{ .Values.images.ui }}
         ports:
           - containerPort: 8080
