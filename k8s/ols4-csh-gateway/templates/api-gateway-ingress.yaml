@@ -30,4 +30,18 @@ spec:
               name: {{ .Release.Name }}-gw
               port:
                 number: 80
+        - path: /foodex2
+          pathType: Prefix
+          backend:
+            service:
+              name: {{ .Release.Name }}-gw
+              port:
+                number: 80
+        - path: /km/MAELSTROM
+          pathType: Prefix
+          backend:
+            service:
+              name: {{ .Release.Name }}-gw
+              port:
+                number: 80
 {{- end }}
