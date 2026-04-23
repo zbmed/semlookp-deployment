@@ -52,6 +52,16 @@ entries:
   ols4-csh-gateway:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2026-04-23T07:21:33.158516307Z"
+    description: A Helm chart to deploy the ols4-csh-gateway.
+    digest: 35df040b49d48ae51c0d176ea3f8ee6296a3adc5b8567d0a174effe341a16a92
+    name: ols4-csh-gateway
+    type: application
+    urls:
+    - https://github.com/zbmed/semlookp-deployment/releases/download/ols4-csh-gateway-0.0.10/ols4-csh-gateway-0.0.10.tgz
+    version: 0.0.10
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2026-04-13T08:17:28.215970026Z"
     description: A Helm chart to deploy the ols4-csh-gateway.
     digest: 873a7abc52dd4dbddf8a16a40cbc6321502ac457e6e1f0c8cb046ed296c0b69f
@@ -131,6 +141,16 @@ entries:
     - https://github.com/zbmed/semlookp-deployment/releases/download/ols4-dataserver-0.1.2/ols4-dataserver-0.1.2.tgz
     version: 0.1.2
   semlookp-ui:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-04-23T07:21:33.367149201Z"
+    description: A Helm chart to deploy the semlookp-ui.
+    digest: 1147af1bfedcc83ef299dae83480572043a08d42ebf1468907b0c95d14627954
+    name: semlookp-ui
+    type: application
+    urls:
+    - https://github.com/zbmed/semlookp-deployment/releases/download/semlookp-ui-0.1.2/semlookp-ui-0.1.2.tgz
+    version: 0.1.2
   - apiVersion: v2
     appVersion: 1.0.0
     created: "2026-03-04T09:06:51.266021026Z"
@@ -294,6 +314,16 @@ entries:
   zbmed-ts-berd:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2026-04-23T07:21:33.566379307Z"
+    description: A Helm chart to deploy the semlookp-ui.
+    digest: 4772cc44bde0ec8188e3a99376ca9b8a1068d555f918e815b6d46d48fb8145fe
+    name: zbmed-ts-berd
+    type: application
+    urls:
+    - https://github.com/zbmed/semlookp-deployment/releases/download/zbmed-ts-berd-0.0.2/zbmed-ts-berd-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2026-03-04T07:31:07.72672553Z"
     description: A Helm chart to deploy the semlookp-ui.
     digest: 4d25903aaac87b347af87cd0e069dc243fb5da77b7e47c835688b5c681b09ca9
@@ -305,6 +335,16 @@ entries:
   zbmed-ts-health:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2026-04-23T07:21:33.777659661Z"
+    description: A Helm chart to deploy the semlookp-ui specific for NFDI4Health.
+    digest: eb98dea600c323d06bdf25fdeacd0427122053a0bf9a7e808e787b7b91f71c11
+    name: zbmed-ts-health
+    type: application
+    urls:
+    - https://github.com/zbmed/semlookp-deployment/releases/download/zbmed-ts-health-0.0.2/zbmed-ts-health-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2026-03-04T07:31:07.876757841Z"
     description: A Helm chart to deploy the semlookp-ui specific for NFDI4Health.
     digest: 813484569748b7a3455abd9b535f238e5bed150d93b1c377277ed345126a0785
@@ -313,4 +353,4 @@ entries:
     urls:
     - https://github.com/zbmed/semlookp-deployment/releases/download/zbmed-ts-health-0.0.1/zbmed-ts-health-0.0.1.tgz
     version: 0.0.1
-generated: "2026-04-13T08:17:28.216044225Z"
+generated: "2026-04-23T07:21:33.777801688Z"
