@@ -1,0 +1,6 @@
+apiVersion: v2
+name: zbmed-ts-fairagro
+description: A Helm chart to deploy the semlookp-ui specific for FAIRagro.
+type: application
+version: 0.0.1
+appVersion: "1.0.0"

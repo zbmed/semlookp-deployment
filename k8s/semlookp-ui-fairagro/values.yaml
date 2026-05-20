@@ -1,0 +1,12 @@
+ingress:
+  dns:
+  enableSSL:
+  certIssuer:
+  path:
+ui:
+  apiURL:
+images:
+  ui:
+auth:
+  enabled:
+  secretName:
