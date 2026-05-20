@@ -332,6 +332,17 @@ entries:
     urls:
     - https://github.com/zbmed/semlookp-deployment/releases/download/zbmed-ts-berd-0.0.1/zbmed-ts-berd-0.0.1.tgz
     version: 0.0.1
+  zbmed-ts-fairagro:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-05-20T13:19:05.529102265Z"
+    description: A Helm chart to deploy the semlookp-ui specific for FAIRagro.
+    digest: 1f3563b5e9ce7f4022b2f49eb3bdbf58d7fa34f53d6cd749d8437398754f3091
+    name: zbmed-ts-fairagro
+    type: application
+    urls:
+    - https://github.com/zbmed/semlookp-deployment/releases/download/zbmed-ts-fairagro-0.0.1/zbmed-ts-fairagro-0.0.1.tgz
+    version: 0.0.1
   zbmed-ts-health:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -353,4 +364,4 @@ entries:
     urls:
     - https://github.com/zbmed/semlookp-deployment/releases/download/zbmed-ts-health-0.0.1/zbmed-ts-health-0.0.1.tgz
     version: 0.0.1
-generated: "2026-04-23T07:21:33.777801688Z"
+generated: "2026-05-20T13:19:05.529203066Z"
